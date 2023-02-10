@@ -107,29 +107,28 @@ body {
     margin: auto;
   }
   .work {
-    display: flex;
-    max-width: 85%;
+    width: 85%;
     background-color: rgb(251, 248, 254);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     padding: 20px;
+    max-width: 800px;
     opacity: 90%;
     box-shadow:0 0 1px 1px white
   }
   .worksize {
+    height: 100px;
     max-width: 33.3%;
-    margin-left: auto; 
-    margin-right: auto;
+
+    
     
     
   }
-  .grid-container {
-    display: block;
-    height: 110px;
-    align-content: space-evenly;
-    gap: 10%;
-    padding: 20px;
+  .box {
+    display: flex;
+    justify-content:space-between;
+    justify-content:space-around;
   }
 
   .foot {
