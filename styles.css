@@ -1,0 +1,137 @@
+
+.top {
+  max-width: 85%;
+  font-size: large;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin: auto;
+  line-height: 21px;
+
+  }
+  
+.logo {
+  display: block;
+  margin: auto;
+  height: 60px;
+  max-width: 85%;
+  opacity: 80%;
+  padding: 5px;
+  
+}
+
+.menu {
+  width: 85%;
+  background-color: rgb(251, 248, 254);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 800px;
+  opacity: 90%;
+  box-shadow:0 0 1px 1px white
+  
+  
+}
+
+body {
+    background-image: url("./assets/images/Background.png");
+    background-position: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 1300px;
+    font-family: sans-serif;
+    padding: 10px;
+    
+  }
+  
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+    padding: 10px;
+    
+  }
+  
+  h2, p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+  }
+  .small {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px; 
+    line-height: 30px; 
+  }
+  hr {
+    border-color: grey;
+  }
+  h4 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: rgb(75, 74, 74);
+  }
+ 
+  .dark{
+    width: 85%;
+    height: flex;
+    background-color: rgb(21, 21, 22);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px;
+    max-width: 800px;
+    opacity: 90%;
+    box-shadow:0 0 1px 1px rgb(49, 48, 48)
+  }
+  .white {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  .who {
+    font-size: 30px;
+  }
+  .Title {
+    font-family: 'Josefin Slab', serif;
+    font-size: 35px;
+    margin: auto;
+  }
+  .work {
+    width: 85%;
+    background-color: rgb(251, 248, 254);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px;
+    max-width: 800px;
+    opacity: 90%;
+    box-shadow:0 0 1px 1px white
+  }
+  .worksize {
+    max-width: 33.3%;
+    margin-left: auto; 
+    margin-right: auto;
+    
+  }
+  .grid-container {
+    display: flex;
+    height: 110px;
+    align-content: space-evenly;
+    gap: 10%;
+    padding: 20px;
+  }
+
+  .foot {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
